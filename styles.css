@@ -1,0 +1,95 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("image2.jpg");
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+.button{
+    position: absolute;top: 0px;right: 10px;
+    border: 0;
+    background: #fff;
+    color:black;
+    cursor: pointer;
+    font-size:25px ;
+    outline: none;
+    margin: 0;
+}
+.top{
+    color: black;
+    background-color: white;
+    font-size: 25px;
+}
+
+.wrapper{
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    margin:  20px auto ;
+    padding: 30px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+}
+
+.wrapper .form{
+    width: 100%;
+}
+
+.wrapper .form .input_field{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .form .input_field label{
+    width: 200px;
+    color: #757575;
+    margin-right: 10px;
+   font-size: 13px; 
+}
+
+.wrapper .form .input_field .input{
+    width: 100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 13px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.wrapper .form .input_field .input:focus,
+.wrapper .form .input_field .text:focus{
+    border: 1px solid coral;
+}
+
+.wrapper .form .input_field .am{
+   width: 100%;
+   padding: 8px 10px;
+   font-size: 13px;
+   border: 0;
+   background: coral;
+   color: #fff;
+   cursor: pointer;
+   border-radius: 3px;
+   outline: none;
+}
+
+.wrapper .form .input_field:last-child{
+    margin: 0;
+}
+
+.wrapper .form .input_field .am:hover{
+    background: rgb(221, 59, 0);
+
+}
+
+
+
+
+
+
+

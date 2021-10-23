@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>forms</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="pdf.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>   
+</head>
+<body>
+
+    <div class="top"> <a href="index.php">  BACK TO HOME </a><label ><button class="button" id="download"  >DOWNLOAD PDF</button></div>
+    
+        
+    <form name="frmdetail" method="post" action="detail.php">
+<div class="wrapper">
+  <div class="form"  >
+      <div class="pdf"  id="invoice"  >
+    <div class="input_field"  >
+        <label for="name"> NAME</label>
+        <input type="text" class="input" name="txtname"  id="txtname">
+    </div>
+    <div class="input_field" >
+        <label for="usn"> USN</label>
+        <input type="text" class="input" name="txtusn" id="txtusn">
+    </div>
+    <div class="input_field" >
+        <label for="branchname" > BRANCH NAME</label>
+        <input type="text" class="input" name="txtbranch" id="txtbranch">
+    </div>
+    <div class="input_field" >
+        <label for="1sem" > 1ST SEMESTER SGPA </label>
+        <input type="text" class="input" name="txt1sem" id="txt1sem">
+    </div>
+    <div class="input_field" >
+        <label for="2sem" > 2ND SEMESTER SGPA</label>
+        <input type="text" class="input" name="txt2sem" id="txt2sem">
+    </div>
+    <div class="input_field">
+        <label for="3rd" > 3RD SEMESTER SGPA</label>
+        <input type="text" class="input" name="txt3sem" id="txt3sem">
+    </div>
+    <div class="input_field">
+        <label for="4"> 4TH SEMESTER SGPA</label>
+        <input type="text" class="input" name="txt4sem" id="txt4sem">
+    </div>
+    <div class="input_field">
+        <label for="5"> 5TH SEMESTER SGPA</label>
+        <input type="text" class="input" name="txt5sem" id="txt5sem">
+    </div>
+    <div class="input_field">
+        <label for="6sem" > 6TH SEMESTER SGPA</label>
+        <input type="text" class="input" name="txt6sem" id="txt6sem">
+    </div>
+    <div class="input_field">
+        <label for="7sem"> 7TH SEMESTER SGPA</label>
+        <input type="text" class="input"name="txt7sem" id="txt7sem">
+    </div>
+    <div class="input_field">
+        <label for="8sem" > 8TH SEMESTER SGPA</label>
+        <input type="text" class="input"name="txt8sem" id="txt8sem">
+    </div>
+</div>
+    <div class="input_field">
+        <label ><input type="submit" name="submit" value="submit" class="am" > </label>
+        
+    </div>
+ </div>
+ 
+</div>
+</form>
+
+</body>
